@@ -1,0 +1,17 @@
+scraped:
+  outputs:
+    dev:
+      #type: duckdb
+      #path: ./dev.duckdb
+      type: sqlserver
+      server: azuresql112.database.windows.net
+      database: AzureSQL
+      schema: azuresql112 
+      user: azuresql
+      password: ?witB38Ee.w*P@A
+      port: 1433
+      threads: 1
+      driver: 'ODBC Driver 17 for SQL Server'
+      encrypt: True
+      trust_cert: True
+  target: dev

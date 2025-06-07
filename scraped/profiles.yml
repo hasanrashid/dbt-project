@@ -7,8 +7,8 @@ scraped:
       server: azuresql112.database.windows.net
       database: AzureSQL
       schema: azuresql112 
-      user: azuresql
-      password: ?witB38Ee.w*P@A
+      user: 
+      password: 
       port: 1433
       threads: 1
       driver: 'ODBC Driver 17 for SQL Server'
